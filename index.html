@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simsalaclean - Laundry online yang praktis dan mudah diakses untuk Jakarta Selatan.">
+    <title>Simsalaclean - Laundry Beres, Waktu Lebih Bebas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%231a7c7c' width='100' height='100' rx='8'/><text x='50' y='65' font-size='60' font-weight='bold' fill='white' text-anchor='middle' font-family='system-ui'>SC</text></svg>">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="logo">Simsalaclean</div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#why">Kenapa Simsalaclean</a></li>
+                    <li><a href="#how-it-works">Cara Kerja</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <button class="cta-button header-cta" id="headerCTA">Gabung Early Access</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="beranda">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-content">
+                    <div class="eyebrow">SEGERA HADIR DI JAKARTA SELATAN</div>
+                    <h1 class="hero-headline">Laundry Beres, Waktu Lebih Bebas.</h1>
+                    <p class="hero-subtitle">Rutinitas sudah cukup padat. Urusan laundry seharusnya nggak ikut bikin repot. Simsalaclean sedang menyiapkan layanan laundry online yang praktis untuk membantu kamu punya lebih banyak waktu untuk hal yang penting.</p>
+                </div>
+                
+                <!-- Lead Form -->
+                <div class="lead-form-container">
+                    <h2 class="form-heading">Jadi yang Pertama Tahu!</h2>
+                    <p class="form-subtitle">Tinggalkan nama dan Instagram kamu. Kami akan mengabari saat Simsalaclean semakin dekat dengan hari peluncuran.</p>
+                    
+                    <form class="lead-form" id="leadForm">
+                        <div class="form-group">
+                            <label for="fullName">Nama Lengkap</label>
+                            <input 
+                                type="text" 
+                                id="fullName" 
+                                name="fullName" 
+                                placeholder="Masukkan nama lengkap kamu"
+                                required
+                            >
+                            <span class="error-message" id="fullNameError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="instagramUsername">Instagram Username</label>
+                            <input 
+                                type="text" 
+                                id="instagramUsername" 
+                                name="instagramUsername" 
+                                placeholder="@username"
+                                required
+                            >
+                            <span class="error-message" id="instagramUsernameError"></span>
+                        </div>
+                        
+                        <button type="submit" class="cta-button form-submit-btn">
+                            <span class="btn-text">Daftar Early Access</span>
+                            <span class="btn-loader" style="display: none;">⏳</span>
+                        </button>
+                    </form>
+                    
+                    <p class="form-microcopy">Gratis untuk bergabung. Kami akan menghubungi kamu saat Simsalaclean siap hadir.</p>
+                    
+                    <p class="privacy-link-container">
+                        <a href="#" id="privacyLink">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem & Solution Section -->
+    <section class="problem-solution" id="why">
+        <div class="container">
+            <div class="section-header">
+                <h2>Waktu Kamu Terlalu Berharga untuk Habis Mengurus Laundry.</h2>
+                <p>Mulai dari memilah pakaian, mencuci, sampai memastikan semuanya siap dipakai lagi—urusan laundry bisa menyita waktu di tengah jadwal yang padat. Kami hadir dengan ide sederhana: membuat pengalaman laundry terasa lebih praktis, supaya kamu bisa fokus pada hal yang lebih penting.</p>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">⚡</div>
+                    <h3>Lebih Praktis</h3>
+                    <p>Bayangkan urusan laundry yang bisa dimulai secara online, tanpa harus menambah banyak hal ke to-do list kamu.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">⏱️</div>
+                    <h3>Lebih Banyak Waktu</h3>
+                    <p>Kurangi waktu yang biasanya tersita untuk mengurus pakaian dan gunakan untuk hal yang lebih berarti.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎯</div>
+                    <h3>Lebih Mudah Diakses</h3>
+                    <p>Simsalaclean sedang dipersiapkan untuk menemani kebutuhan laundry masyarakat Jakarta Selatan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>A Laundry Experience, Made Simpler.</h2>
+                <p>Kami sedang menyiapkan pengalaman laundry online yang lebih praktis. Ini gambaran sederhana tentang pengalaman yang ingin kami hadirkan.</p>
+            </div>
+            
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Kenali Kebutuhan Laundry Kamu</h3>
+                        <p>Mulai dengan mengetahui kebutuhan laundry yang ingin kamu selesaikan.</p>
+                    </div>
+                </div>
+                
+                <div class="step-divider"></div>
+                
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Proses yang Lebih Praktis</h3>
+                        <p>Nikmati pengalaman layanan yang dirancang agar urusan laundry terasa lebih sederhana.</p>
+                    </div>
+                </div>
+                
+                <div class="step-divider"></div>
+                
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Kembali ke Aktivitas Kamu</h3>
+                        <p>Lebih banyak waktu untuk pekerjaan, keluarga, hobi, dan hal-hal yang kamu suka.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Value Section -->
+    <section class="brand-value">
+        <div class="container">
+            <div class="brand-value-content">
+                <h2>Bukan Cuma Soal Pakaian Bersih. Ini Soal Waktu Kamu.</h2>
+                <p>Kami percaya hal sederhana seperti mengurus laundry seharusnya tidak mengambil terlalu banyak ruang dalam keseharian. Simsalaclean ingin membantu menciptakan pengalaman yang lebih praktis, agar kamu punya lebih banyak ruang untuk menjalani hidup.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Early Access CTA Section -->
+    <section class="early-access-cta">
+        <div class="container">
+            <h2>Be Among the First to Know.</h2>
+            <p>Simsalaclean sedang dalam perjalanan menuju Jakarta Selatan. Bergabunglah dalam daftar early access dan jadi salah satu orang pertama yang mendapatkan kabar saat kami siap meluncur.</p>
+            <button class="cta-button cta-secondary" id="ctaButton">Gabung Early Access</button>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2>Pertanyaan yang Sering Diajukan</h2>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Apa itu Simsalaclean?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Simsalaclean adalah layanan laundry online yang sedang dipersiapkan untuk membantu urusan laundry terasa lebih praktis.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Apakah Simsalaclean sudah bisa digunakan?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Belum. Saat ini Simsalaclean masih dalam tahap pre-launch dan belum menerima pesanan. Kami sedang mempersiapkan layanan sebelum resmi hadir.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Di mana Simsalaclean akan tersedia?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Simsalaclean sedang dipersiapkan untuk area Jakarta Selatan. Informasi cakupan layanan lebih detail akan diumumkan menjelang peluncuran.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Bagaimana cara mendapatkan informasi peluncurannya?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Isi form early access dengan nama lengkap dan Instagram username kamu. Kami akan mengabari saat ada informasi terbaru.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Apakah ada biaya untuk bergabung dalam early access?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Tidak. Mengisi form early access hanya untuk menyatakan ketertarikan dan mendapatkan informasi peluncuran.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-column">
+                    <h4>Simsalaclean</h4>
+                    <p>A simpler laundry experience is coming to South Jakarta.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#beranda">Beranda</a></li>
+                        <li><a href="#why">Kenapa Simsalaclean</a></li>
+                        <li><a href="#how-it-works">Cara Kerja</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#" id="footerPrivacyLink">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Simsalaclean. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Privacy Policy Modal -->
+    <div class="modal" id="privacyModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-body">
+                <h2>Privacy Policy — Simsalaclean</h2>
+                <p>Kami menghargai privasi kamu. Informasi yang kamu kirimkan melalui form early access, yaitu nama lengkap dan Instagram username, digunakan untuk mencatat ketertarikan kamu terhadap Simsalaclean dan memberikan informasi terkait perkembangan serta peluncuran layanan.</p>
+                
+                <p>Kami tidak meminta informasi lain melalui form ini. Data yang dikumpulkan hanya boleh digunakan untuk tujuan komunikasi terkait Simsalaclean dan ditangani secara wajar dengan memperhatikan keamanan serta kerahasiaannya.</p>
+                
+                <p>Dengan mengirimkan form, kamu memahami bahwa informasi tersebut akan disimpan untuk keperluan early access Simsalaclean.</p>
+                
+                <p>Untuk pertanyaan atau permintaan terkait data kamu, silakan hubungi tim Simsalaclean melalui kanal kontak resmi yang akan diumumkan.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thank You Modal -->
+    <div class="modal" id="thankYouModal">
+        <div class="modal-content">
+            <div class="modal-body thank-you-modal">
+                <h2>You're on the list!</h2>
+                <p>Terima kasih sudah tertarik dengan Simsalaclean. Kami akan mengabari kamu saat ada update terbaru menjelang peluncuran.</p>
+                <button class="cta-button" id="thankYouClose">Oke, Got It</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
