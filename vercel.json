@@ -3,7 +3,6 @@
   "installCommand": "",
   "framework": null,
   "outputDirectory": ".",
-  "public": true,
   "regions": [
     "sin1"
   ],
