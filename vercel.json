@@ -1,0 +1,18 @@
+{
+  "buildCommand": "",
+  "installCommand": "",
+  "framework": null,
+  "outputDirectory": ".",
+  "public": true,
+  "regions": [
+    "sin1"
+  ],
+  "env": {
+    "REACT_APP_GOOGLE_APPS_SCRIPT_URL": "@react_app_google_apps_script_url"
+  },
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  }
+}
